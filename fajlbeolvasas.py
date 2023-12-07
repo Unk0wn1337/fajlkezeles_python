@@ -19,3 +19,9 @@ def beolvas():
 
     for i in range(0,len(szemelyekLista),1):
         print(f"{szemelyekLista[i].nev}, {szemelyekLista[i].nem}, {szemelyekLista[i].kor} ")
+
+    import feladatokSzemelyekListaval
+    atlagEletkor = feladatokSzemelyekListaval.atlagEletKor(szemelyekLista)
+    print(atlagEletkor)
+    nokSzama = feladatokSzemelyekListaval.osszesenNo(szemelyekLista)
+    print(nokSzama)
